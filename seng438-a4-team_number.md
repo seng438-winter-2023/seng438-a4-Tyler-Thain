@@ -11,6 +11,8 @@
 
 # Introduction
 
+In this lab, our group utilized mutation testing to improve our test suite from assignment 3. Surviving mutants were investigated and killed through updating current tests and adding new tests. Additionally, Selenium was used to briefly test some functionality of Ikea Canada’s home page at https://www.ikea.com/ca/en/.
+
 # Analysis of 10 Mutants of the Range class
 
 #1.  
@@ -104,12 +106,7 @@ This mutant is killed. This is because the prefix increment takes the current va
 ![R After Assignment 4](MutationStatistics/RangeAfter.png "After Assignment 4")
 
 # Analysis drawn on the effectiveness of each of the test classes
-<<<<<<< HEAD
 We were able to meet the goal of increasing our mutation test strength by 10% from 67% to 78%. However, we were only able to improve the mutation score for DataUtilities from 90% to 92% because of equivalent mutants. This shows that our original test suite for DataUtilities was very close to having 100% mutation strength if all equivalent mutants were removed. However, our test suite for Range had lots of room for improvement based on the low mutation test strength. In both cases, many tests ignored certain boundary conditions which allowed for mutants such as starting a loop at 1 instead of 0 to survive. To up our coverage, input data for current tests were changed and new tests needed to be added.
-=======
-
-We were able to meet the goal of increasing our mutation test strength by 10% from 67% to 78%. However, we were only able to improve the mutation score for DataUtilities from 90% to 92% because of equivalent mutants.
->>>>>>> d05cb14d91d812ca06f23baf346a4fb769f544bb
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
@@ -125,7 +122,7 @@ To improve the mutation score of our test suite, we followed the PIT test mutati
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
-Mutation testing is advantageous as it tests the actual strength of a test suite. Regardless of coverage, bugs can still get through a test suite so ensuring the strength of the tests allows for more confidence the tests are catching as many bugs as possible. Mutation testing helps improve a test suite allowing testers to write tests capable of catching a variety of different code errors.
+Mutation testing is advantageous as it tests the actual strength of a test suite. Regardless of coverage, bugs can still get through a test suite so ensuring the strength of the tests allows for more confidence the tests are catching as many bugs as possible. Mutation testing helps improve a test suite allowing testers to write tests capable of catching a variety of different code errors. Additionally, mutation testing also improves code coverage as tests need to become more robust to kill all mutants generated.
 
 However, mutation testing is expensive and time consuming. Even using mutant generators and software like PIT, a lot of resources are required to generate every mutant. Strong programming knowledge and knowledge of the source code is also required to detect equivalent mutants and kill surviving mutants. Additionally, equivalent mutants arbitrarily reduce a test suite's strength so time is required to find and remove equivalent mutants to get an accurate mutation test score.
 
