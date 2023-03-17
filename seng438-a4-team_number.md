@@ -127,6 +127,8 @@ However, mutation testing is expensive and time consuming. Even using mutant gen
 
 # Explain your SELENUIM test case design process
 
+The test case design process was best described as exploratory testing. Tests were created based off of functionality of the main web page of Ikea. Each member chose two different functionalities to test that we thought would be important to test. These included the search, cart, wishlist, login, and store location. Each of these are important when visiting the Ikea website as they are common places that a consumer may go. These tests were created after exploring the webpage as an individual and using it as a normal customer would, then writing tests based off of where we ended up, places we commonly visited, or otherwise important functions to the average user.
+
 # Explain the use of assertions and checkpoints
 
 # how did you test each functionaity with different test data
@@ -134,6 +136,8 @@ However, mutation testing is expensive and time consuming. Even using mutant gen
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
 # How the team work/effort was divided and managed
+
+We split the work evenly among the team, with two members working on the mutations testing for Range, and two members working on DataUtilities. This seemed to split the workload evenly. Also, each member did two Selenium tests for the Ikea website. Additionally, to fill out the lab report, all of the team members met together to work collaboratively on the document. Each member would select a section, and work on it, with edits and additional contributions to each section made by other members. We managed the workload by remaining active in our group chat and communicating with each other often and clearly.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
