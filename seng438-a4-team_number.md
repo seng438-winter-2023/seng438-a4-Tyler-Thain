@@ -95,10 +95,13 @@ This mutant is killed. This is because the prefix increment takes the current va
 
 ## DataUtilities
 
-![Before Assignment 4](MutationStatistics/DataUtilitiesBefore.png "Before Assignment 4")
-![After Assignment 4](MutationStatistics/DataUtilitiesAfter.png "After Assignment 4")
+![DU Before Assignment 4](MutationStatistics/DataUtilitiesBefore.png "Before Assignment 4")  
+![DU After Assignment 4](MutationStatistics/DataUtilitiesAfter.png "After Assignment 4")
 
 ## Range
+
+![R Before Assignment 4](MutationStatistics/RangeBefore.png "Before Assignment 4")  
+![R After Assignment 4](MutationStatistics/RangeAfter.png "After Assignment 4")
 
 # Analysis drawn on the effectiveness of each of the test classes
 
