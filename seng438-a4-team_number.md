@@ -132,9 +132,15 @@ The test case design process was best described as exploratory testing. Tests we
 
 # Explain the use of assertions and checkpoints
 
+Checkpoints are used throughout each of our tests to ensure that it stops and waits for the correct outcome before continuing to the next step. This is done automatically through the Selenium IDE as well as automatic assertions after certain events such as a mouse or click event. These checkpoints can be used as a way to test expected results as we navigate through the webpage.
+
 # how did you test each functionaity with different test data
 
+Most of the test cases tested binary functionality of the website. The tests would only be invalid if the webpage was unresponsive. Invalid data cannot be passed to pressing a button so most tests cannot test if an invalid button was pressed. When testing each of the functionalities we include different tests for product searching, one through the search, and another through the product button field. Another example would be the login where it is tested how an invalid login can impact the webpage. Overall, most tests were not done with inputted values so they cannot be tested the same as ones that do take in values.
+
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
+
+Selenium was very easy to use compared to Sikulix. Its integration with chrome made it very simple to get started while the Sikulix download was less so. Selenium made it very quick to create tests with the record feature. With Sikulix, it took more time to create valid test cases. One disadvantage of Selenium, which was not encountered in the lab but can be foreseen, is that it is unable to test programs that are not web pages. Sikulix is more versatile in the fact that it can be used on any GUI program in or out of a web page. 
 
 # How the team work/effort was divided and managed
 
@@ -142,4 +148,13 @@ We split the work evenly among the team, with two members working on the mutatio
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+A difficulty that our group was faced with was improving mutant coverage so that we killed more mutants. We overcame this by finding that boundary value tests could be improved so that the coverage is increased. Another problem that we encountered was that Selenium would sometimes unexpectedly crash which would be inconvenient. Also, the mutant testing process was incredibly slow, so lots of time was wasted waiting for it to complete.
+
 # Comments/feedback on the lab itself
+
+Overall, we enjoyed the lab as we learned more about mutant and GUI testing. These concepts will be important later in our studies and on the final for the course.
+We also found that there was some outdated information as these test were not were they said they were:
+
+From lab doc:
+As a practice, run mutation tests on the test cases provided under org.jfree.data.junit in the test folder of JFreeChart_Lab4 project. Record all results. (Right click on the org.jfree.data.junit and then run as PIT Mutation Test)
+
